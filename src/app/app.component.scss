@@ -1,0 +1,28 @@
+.example-container {
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
+}
+
+.example-chip-list {
+  width: 100%;
+}
+
+md-sidenav {
+  left: initial;
+  right: 0;
+}
+
+md-sidenav.md-closed {
+  transform: translate3d(100%, 0, 0);
+}
