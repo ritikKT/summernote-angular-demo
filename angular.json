@@ -31,7 +31,9 @@
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./summernote/jquery-3.5.1.min.js"
+            ]
           },
           "configurations": {
             "production": {
